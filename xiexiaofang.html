@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            font-size:16px;
+            color:#333;
+        }
+        h6{
+            font-weight:normal;
+        }
+        ul,li{
+            list-style: none;
+        }
+        .item{
+            max-width:990px;
+            margin:0 auto;
+        }
+        .flex{
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        .circle{
+            width:11px;
+            height:11px;
+            border:1px blue solid;
+            border-radius: 12px;
+        }
+        .item .year h6,.month{
+            font-size:20px;
+            color:blue;
+            margin-right:20px;
+            width:50px;
+            text-align: right;
+        }
+        .month{
+            font-size:12px;
+            color:#ccc;
+        }
+        .solid{
+            position: relative;
+            display: block;
+            width:7px;
+            height:7px;
+            background:blue;
+            margin:2px;
+            border-radius: 8px;
+        }
+        .solid div{
+            width: 1px;
+            height: 30px;
+            position: absolute;
+            background: blue;
+            left: 50%;
+            margin-left: -1px;
+        }
+        .flex p{
+            margin-left:30px;
+            line-height:30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="item">
+            <div class="year flex">
+            <h6>2018</h6>
+            <div class="circle">
+                <span class="solid">
+                    <div></div>
+                </span>
+            </div>
+        </div>
+        <ul>
+            <li class="flex">
+                <div class="month">03月</div>
+                <div class="solid">
+                    <div></div>
+                </div>
+                <p>金领驿站项目二期签订</p>
+            </li>
+            <li class="flex">
+                <div class="month">03月</div>
+                <div class="solid">
+                    <div></div>
+                </div>
+                <p>金领驿站项目二期签订</p>
+            </li>
+            <li class="flex">
+                <div class="month">03月</div>
+                <div class="solid">
+                    <div></div>
+                </div>
+                <p>金领驿站项目二期签订</p>
+            </li>
+            <li class="flex">
+                <div class="month">03月</div>
+                <div class="solid">
+                    <div></div>
+                </div>
+                <p>金领驿站项目二期签订</p>
+            </li>
+            <li class="flex">
+                <div class="month">03月</div>
+                <div class="solid"></div>
+                <p>金领驿站项目二期签订</p>
+            </li>
+        </ul>
+        </div>
+    </div>
+</body>
+</html>

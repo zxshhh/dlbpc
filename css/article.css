@@ -1,0 +1,16 @@
+.article-menages {
+  letter-spacing: 0.02rem;
+}
+.article-menages .article-title {
+  padding-top: 1.85rem;
+  font-size: 0.5rem;
+}
+.article-menages .article-time {
+  font-size: 0.23rem;
+  color: #979797;
+  padding-bottom: 1.25rem;
+  padding-top: 0.08rem;
+}
+.article-menages .article-body p {
+  padding-bottom: 1rem;
+}

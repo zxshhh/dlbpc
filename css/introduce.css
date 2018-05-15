@@ -1,0 +1,118 @@
+.introduce-top {
+  height: 1.42rem;
+  background: #f7f7f7;
+  list-style: none;
+}
+.introduce-top .introduce-top-li {
+  font-size: 0.27rem;
+  float: left;
+  margin: 0px 1.25rem 0px 0px;
+  cursor: pointer;
+}
+.introduce-top .select-top-li {
+  font-size: 0.27rem;
+  color: #4990e2;
+}
+.jieshao-model {
+  height: 8.12rem;
+}
+.jieshao-model img {
+  width: 100%;
+  height: 100%;
+}
+.body-main {
+  height: inherit;
+  min-height: inherit;
+  margin-top: 2.3rem;
+  margin-bottom: 2.98rem;
+}
+.body-main .p {
+  margin-top: 0.7rem;
+  letter-spacing: 0.02rem;
+}
+.body-main h6 {
+  font-weight: normal;
+}
+.body-main .ul {
+  margin-left: -5px;
+  margin-top: -44px;
+}
+.body-main .ul .flex:last-child .solid div {
+  height: 0px;
+}
+.body-main ul,
+.body-main li {
+  list-style: none;
+  cursor: pointer;
+}
+.body-main .item {
+  margin: 0 auto;
+}
+.body-main .flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.body-main .circle {
+  width: 11px;
+  height: 11px;
+  border: 1px #4990E2 solid;
+  border-radius: 12px;
+}
+.body-main .item .year h6,
+.body-main .month {
+  font-size: 20px;
+  color: #3B7ADB;
+  margin-right: 20px;
+  text-align: right;
+}
+.body-main .month {
+  font-size: 12px;
+  color: #bebebe;
+  width: 33px;
+}
+.body-main .solid {
+  position: relative;
+  display: block;
+  width: 7px;
+  height: 7px;
+  background: #4990E2;
+  margin: 1px;
+  border-radius: 8px;
+}
+.body-main .solid div {
+  width: 1px;
+  height: 33px;
+  position: absolute;
+  background: #4990e2;
+  left: 50%;
+  margin-left: 0px;
+  margin-top: 1px;
+}
+.body-main .flex .text {
+  margin-left: 30px;
+  line-height: 30px;
+  color: #696969;
+  overflow: hidden;
+  /*超出部分隐藏*/
+  white-space: nowrap;
+  /*不换行*/
+  text-overflow: ellipsis;
+  /*超出部分文字以...显示*/
+}
+.body-main .flex .text:hover {
+  font-size: 0.5rem;
+  color: #4990e2;
+}
+.body-main-time {
+  margin-left: 4.07rem !important;
+  margin-top: 1.3rem !important;
+}
+@media screen and (max-width: 812px) {
+  .body-main-time {
+    margin-left: 1.07rem !important;
+    margin-top: 1.3rem !important;
+    margin-right: 0px;
+  }
+}

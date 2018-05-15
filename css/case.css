@@ -1,0 +1,23 @@
+.flex-center {
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+}
+.case-body {
+  text-align: center;
+}
+.case-body .case-body-title {
+  font-size: 0.73rem;
+  padding: 1.085rem;
+}
+.case-body .case-body-body {
+  font-size: 0.4rem;
+  text-align: left;
+}
+.case-body .case-body-body .body-img {
+  margin-top: 15px;
+  width: 100%;
+}
