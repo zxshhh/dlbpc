@@ -28,6 +28,74 @@
     <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .information-right-ul a{
+            color: #000000;
+        }
+        .information-right-ul a:hover{
+            text-decoration: none;
+            color: #3492d7 !important;
+        }
+        .footer-back {
+            position: relative;
+        }
+        .footer-back .VXfloat{
+            display: none;
+            position: absolute;
+            bottom: 296px;
+            left: 48.2%;
+            width: 178px;
+            height: 210px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 6px 13px 0px rgba(74,74,74,0.5);
+        }
+        .footer-back .VXfloat .erWeima{
+            margin: 23px 29px 8px;
+            width: 121px;
+            height: 121px;
+        }
+        .footer-back .footer .footer-icons img:hover {
+            opacity: 1;
+        }
+        .footer-back .VXfloat .trangle{
+            width: 0;
+            height: 0;
+            margin-left: 37%;
+            margin-top: 20px;
+            border-width: 19px;
+            border-style: solid;
+            border-color: #fff transparent transparent transparent;
+        }
+        .header-top .header-top-right-list-li a{
+            color: #fff!important;
+        }
+        .header-top .header-top-right-list-li a:hover{
+            text-decoration: none;
+        }
+        .header-top .header-top-mens-main .men-list-img {
+            opacity: 0;
+            position: absolute;
+            transition: all 0.5s ease;
+            top: 0px;
+            z-index: -1;
+            left: 0px;
+            width: 32rem;
+            /* height: 2rem; */
+            background: rgba(15, 33, 56, 0.8445);
+            padding-left: 36%;
+            overflow: hidden;
+            margin-top: .7rem;
+        }
+        .header-top .header-top-mens-main .men-list-img>img{
+            width: 500px;
+            height: 350px;
+        }
+        .header-top .header-top-mens-main .men-list-img p{
+            margin: 2px 16%;
+            font-size: 29px;
+        }
+    </style>
 </head>
 <body>
     <!--头部滚动菜单-->
@@ -39,7 +107,7 @@
                 </div>
                 <ul class="header-top-right">
                     <li class="header-top-right-list-li">
-                        我们的技术
+                       首页
                     </li>
                     <li class="header-top-right-list-li">
                         产品和服务
@@ -75,12 +143,17 @@
                     </li>
                     <li class="header-top-right-list-li">
                         在线体验
+                        <!--头部的菜单列表-->
+                        <div class="men-list-img">
+                            <img src="images/youzu.png" alt="">
+                            <p>游族大厦</p>
+                        </div>
                     </li>
                     <li class="header-top-right-list-li">
-                        案例介绍
+                        <a href="case.html">案例介绍</a>
                     </li>
                     <li class="header-top-right-list-li">
-                        关于我们
+                        <a href="introduce.html">关于我们</a>
                     </li>
                     <li class="header-top-right-list-li">
                         加入我们
@@ -254,14 +327,14 @@
                 </div>
                 <div class="information-right animated">
                     <ul class="information-right-ul">
-                        <li class="select-sapn text-overflow"><div class="span"></div>东链博数据新产品，智慧城市管理系统正式上<div class="time">10-23</div></li>
-                        <li><div class="span text-overflow"></div>东链博智慧党建APP上线首日下载领红<div class="time">10-23</div></li>
-                        <li><div class="span text-overflow"></div>东链博与朱家角签订智慧旅游方<div class="time">10-23</div></li>
-                        <li><div class="span text-overflow"></div>东链博与西岸传媒成功达成战略伙<div class="time">10-23</div></li>
-                        <li><div class="span text-overflow"></div>3年了！东链博数据科技有限公司正式上市<div class="time">10-23</div></li>
+                        <li class="select-sapn text-overflow"><div class="span"></div><a href="article.html">东链博数据新产品，智慧城市管理系统正式上</a><div class="time">10-23</div></li>
+                        <li><div class="span text-overflow"></div><a href="article.html">东链博智慧党建APP上线首日下载领红</a><div class="time">10-23</div></li>
+                        <li><div class="span text-overflow"></div><a href="article.html">东链博与朱家角签订智慧旅游方</a><div class="time">10-23</div></li>
+                        <li><div class="span text-overflow"></div><a href="article.html">东链博与西岸传媒成功达成战略伙</a><div class="time">10-23</div></li>
+                        <li><div class="span text-overflow"></div><a href="article.html">3年了！东链博数据科技有限公司正式上市</a><div class="time">10-23</div></li>
                     </ul>
                     <div class="information-right-load">
-                        更多新闻>>
+                        <a href="Journalisms.html"> 更多新闻>></a>
                     </div>
                 </div>
             </div>
@@ -511,6 +584,10 @@
             $(".footer-back .vx").on("mouseout",function(){
                 // $(".footer-back .VXfloat").css("display","none");
                 $(".footer-back .VXfloat").fadeOut(1000);
+            })
+            // 点击更多新闻页面跳转
+            $(".information-right-load").on("click",function(){
+
             })
         })
     </script>

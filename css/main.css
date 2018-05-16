@@ -527,7 +527,7 @@ body {
   overflow: hidden;
   white-space: nowrap;
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   height: 55px;
   margin-left: 69px;
   margin-right: 1.15rem;
@@ -544,7 +544,7 @@ body {
 .header-top .header-top-mens-main .header-top-mens .header-top-right {
   float: right;
   padding-left:150px!important;
-  padding-top:26px;
+  /* padding-top:26px; */
   /*margin-left:456px!important;*/
  /*margin-left:400px!important;*/
 }
