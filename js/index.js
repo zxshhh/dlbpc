@@ -11,6 +11,8 @@ var dlbServer={
         })
         var public_swiper_class_top = new Swiper ('.public-swiper-class-top', {
             pagination : '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
             autoplay: 3000,//可选选项，自动滑动
             onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
                 swiperAnimateCache(swiper); //隐藏动画元素
