@@ -122,7 +122,7 @@
   opacity: 1;
 }
 .header-top .header-top-mens-main .active {
-  animation: ke_top_show 0.5s forwards;
+  /* animation: ke_top_show 0.5s forwards; */
 }
 .header-top .header-top-mens-main .active .men-list-item {
   animation: d2 1s forwards;
