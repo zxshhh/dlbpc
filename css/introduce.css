@@ -25,10 +25,17 @@
   min-height: inherit;
   margin-top: 2.3rem;
   margin-bottom: 2.98rem;
+  font-family: PingFang-SC-Medium;
+	color:rgba(102,102,102,1);
+	/*line-height:33px!important;*/
+}
+.active{
+	line-height:33px!important;
 }
 .body-main .p {
   margin-top: 0.7rem;
   letter-spacing: 0.02rem;
+  text-align:left;
 }
 .body-main h6 {
   font-weight: normal;
@@ -44,6 +51,8 @@
 .body-main li {
   list-style: none;
   cursor: pointer;
+  /*height:36px;*/
+  /*line-height:37px;*/
 }
 .body-main .item {
   margin: 0 auto;
@@ -116,3 +125,20 @@
     margin-right: 0px;
   }
 }
+.header-top-right{
+	padding-left:10.2rem;
+}
+.body-main{text-align:center;line-height:100px;font-size:16px;font-weight:blod;display:none;}
+.body-main.active{display:block;}
+
+#ul{
+	font-size:16px;
+}
+#ul li{
+	width:69px;
+ margin-right:100px!important;
+
+}
+.case-titles{margin:0 auto;}
+
+

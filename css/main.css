@@ -417,11 +417,11 @@ body {
   margin-left: auto;
 }
 .footer-back {
-  position: relative;
   background-image: url("../images/footer.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+  height:442px;
 }
 .footer-back .footer {
   height: 6.3rem;
@@ -449,34 +449,6 @@ body {
 }
 .footer-back .footer .footer-icons img:hover {
   opacity: 1;
-}
-.footer-back .footer .footer-icons img:hover {
-  opacity: 1;
-}
-.footer-back .VXfloat{
-  display: none;
-  position: absolute;
-  bottom: 234px;
-  left: 48.2%;
-  width: 178px;
-  height: 210px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0px 6px 13px 0px rgba(74,74,74,0.5);
-}
-.footer-back .VXfloat .erWeima{
-  margin: 23px 29px 8px;
-  width: 121px;
-  height: 121px;
-}
-.footer-back .VXfloat .trangle{
-  width: 0;
-  height: 0;
-  margin-left: 37%;
-  margin-top: 20px;
-  border-width: 19px;
-  border-style: solid;
-  border-color: #fff transparent transparent transparent;
 }
 .footer-back .footer .footer-tels {
   font-size: 0.4rem;
@@ -530,11 +502,15 @@ body {
 .public-header-top {
   width: 100%;
   background: #ffffff !important;
-  height: 55px !important;
+  height: 66px !important;
   box-shadow: 0rem 0.03rem 0.1rem #898989;
 }
 .public-header-top .header-top-mens .header-top-right .header-top-right-list-li {
   color: #242424 !important;
+  height:22px!important;
+  line-height:22px!important;
+  font-size:16px!important;
+
 }
 .header-top {
   width: 100%;
@@ -551,21 +527,26 @@ body {
   overflow: hidden;
   white-space: nowrap;
   display: -ms-flexbox;
-  /* display: flex; */
+  display: flex;
   height: 55px;
-  margin-left: 1.15rem;
+  margin-left: 69px;
   margin-right: 1.15rem;
+  
 }
 .header-top .header-top-mens-main .header-top-mens .header-top-left {
   float: left;
 }
 .header-top .header-top-mens-main .header-top-mens .header-top-left .header-top-left-icon {
-  width: 1.97rem;
-  height: 0.57rem;
-  margin-top: 12px;
+  width: 118px;
+  height: 34px;
+  margin-top: 15px;
 }
 .header-top .header-top-mens-main .header-top-mens .header-top-right {
   float: right;
+  padding-left:150px!important;
+  padding-top:26px;
+  /*margin-left:456px!important;*/
+ /*margin-left:400px!important;*/
 }
 .header-top .header-top-mens-main .header-top-mens .header-top-right .header-top-right-list-li {
   height: 55px;
@@ -576,7 +557,7 @@ body {
   font-size: 0.27rem;
   font-family: "Microsoft Himalaya";
   color: #ffffff;
-  margin-left: 0.55rem;
+  margin-left: 51px;
 }
 .header-top .header-top-mens-main .header-top-mens .header-top-right .border-h {
   height: 1.8px;
