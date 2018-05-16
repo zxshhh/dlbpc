@@ -26,7 +26,7 @@
   background-color: #101c43;
 }
 .header-top .header-top-mens-main {
-  position: fixed;
+  position: relative;
   z-index: 9;
   border-bottom: 1px rgba(255, 255, 255, 0.39) solid;
   /* background: #0F2138; */
