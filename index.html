@@ -122,11 +122,15 @@
                         </div>
                     </div>
                 </div>
+                <!-- Add Pagination -->
                 <div class="swiper-pagination swiper-pagination-bullets">
                     <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
                     <span class="swiper-pagination-bullet"></span>
                     <span class="swiper-pagination-bullet"></span>
                 </div>
+                <!-- Add Navigation 左右小箭头-->
+                <div class="swiper-button-prev swiper-button-white"></div>
+                <div class="swiper-button-next swiper-button-white"></div>
             </div>
 
         </div>
@@ -145,13 +149,13 @@
         </div>
         <div class="header-user-menages">
             <div class="header-user-menages-left animated">
-                <div class="row">
+                <div class="row" style="padding:0 auto 2rem">
                     &emsp;&emsp; 上海东链博数据科技有限公司于2016年4月21日
                     在自贸区市场监督管理局登记成立。法定代表人林
                     奇，公司经营范围包括从事数据科技、网络科技、电
                     子科技、云计算科技等
                 </div>
-                <div class="row" style="    margin-top: 1.13rem;">
+                <div class="row" style="margin-top: .18rem;">
                     &emsp;&emsp;游族网络股份有限公司（SZ.002174）成立于
                     2009年，创始人林奇，是中国领先的互动娱乐供应
                     商。2014年6月，游族网络正式登陆A股主板。
@@ -457,9 +461,9 @@
                 </li>
             </ul>
         </div>
-        <div class="loding-list">
+        <!-- <div class="loding-list">
             更多职位
-        </div>
+        </div> -->
     </div>
     <!--尾部-->
     <div class="footer-back">
@@ -473,14 +477,20 @@
             </div>
             <div class="footer-tels">
                 <img class="tel" src="images/tel.png" alt="">
-                <span>021-652384</span>
+                <span>021-58562559</span>
                 <img class="mail" src="images/e-mail.png" alt="">
-                <span>dlbdata@yoozoo.com</span>
+                <span>yhzhu@dlbdata.cn</span>
             </div>
 
             <div class="footer-menages">
                 <span>Copyright © 2018</span>
                 <span>上海东链博数据科技有限公司版权所有</span>
+            </div>
+
+            <div class="VXfloat">
+                <img class="erWeima" src="images/wxErwei.jpg" alt="">
+                <p>扫一扫关注<br>东链博公众号</p>
+                <div class="trangle"></div>
             </div>
         </div>
     </div>
@@ -492,5 +502,17 @@
     <!-- Main -->
     <script src="js/index.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        $(function(){
+            $(".footer-back .vx").on("mouseenter",function(){
+                // $(".footer-back .VXfloat").css("display","block");
+                $(".footer-back .VXfloat").fadeIn(1000);
+            })
+            $(".footer-back .vx").on("mouseout",function(){
+                // $(".footer-back .VXfloat").css("display","none");
+                $(".footer-back .VXfloat").fadeOut(1000);
+            })
+        })
+    </script>
 </body>
 </html>
