@@ -14,13 +14,13 @@ var dlbServer={
             nextButton: '.swiper-button-next',
             prevButton: '.swiper-button-prev',
             autoplay: 3000,//可选选项，自动滑动
-            // onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
-            //     swiperAnimateCache(swiper); //隐藏动画元素
-            //     swiperAnimate(swiper); //初始化完成开始动画
-            // },
-            // onSlideChangeEnd: function(swiper){
-            //     swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
-            // }
+            onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+                swiperAnimateCache(swiper); //隐藏动画元素
+                swiperAnimate(swiper); //初始化完成开始动画
+            },
+            onSlideChangeEnd: function(swiper){
+                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+            }
         })
         var mySwiper2 = new Swiper('.case-swiper-class',{
             pagination : '.swiper-pagination',
@@ -36,14 +36,14 @@ $(function () {
         $(this).addClass("select-sapn");
     })
     setTimeout(function () {
-        // $(".header-user-menage .header-user-titles").addClass("fadeInUp"); // 开始淡入
-        // $(".header-user-menages .header-user-menages-left").addClass("fadeInLeft"); // 开始淡入
-        // $(".header-user-menages .header-user-menages-right").addClass("fadeInRight"); // 开始淡入
+        $(".header-user-menage .header-user-titles").addClass("fadeInUp"); // 开始淡入
+        $(".header-user-menages .header-user-menages-left").addClass("fadeInLeft"); // 开始淡入
+        $(".header-user-menages .header-user-menages-right").addClass("fadeInRight"); // 开始淡入
 
 
-        // $(".information .information-title").addClass("fadeInUp"); // 开始淡入
-        // $(".information-menages .information-left").addClass("fadeInLeft"); // 开始淡入
-        // $(".information-menages .information-right").addClass("fadeInRight"); // 开始淡入
+        $(".information .information-title").addClass("fadeInUp"); // 开始淡入
+        $(".information-menages .information-left").addClass("fadeInLeft"); // 开始淡入
+        $(".information-menages .information-right").addClass("fadeInRight"); // 开始淡入
     },1000)
 
 });
