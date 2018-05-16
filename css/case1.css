@@ -1,0 +1,69 @@
+/* .flex-center {
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .case-body {
+    text-align: center;
+  }
+  .case-body .case-body-title {
+    font-size: 0.73rem;
+    padding: 1.085rem;
+  }
+  .case-body .case-body-body {
+    font-size: 0.4rem;
+    text-align: left;
+  }
+  .case-body .case-body-body .body-img {
+    margin-top: 15px;
+    width: 100%;
+  } */
+  /* ------------------------------------------------------------------------ */
+  .titles{
+      font-size:16px;
+      height:80px;
+  }
+  .titles ul{
+      margin:0 auto;
+      padding-left:75px!important;
+  }
+.titles ul li{
+    margin-right:75px!important;
+    height:80px;
+    line-height:80px;
+}
+.case-title{
+    width:1010px;
+    height:66px; 
+    font-size:44px!important;
+    padding:0!important;
+    /* font-family:PingFang-SC-Medium;
+    color:rgba(5,5,5,1);
+    line-height:23px; */
+    margin-top:100px;
+    text-align: center;
+}
+.case-title-body{
+width:1015px;
+margin-top:46px;
+font-size:24px!important;
+font-family:PingFang-SC-Medium;
+color:rgba(102,102,102,1);
+}
+.case-title-body-p{
+    height:85px;
+    line-height:33px!important;
+}
+.case-title-body img{
+    width:1012px;
+    height:541px;
+}
+.case-title-body .href{
+    text-align:center;
+    height:80px;
+    margin-top:153px!important;
+    margin-bottom:105px;
+}
