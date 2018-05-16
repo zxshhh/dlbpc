@@ -5,8 +5,8 @@ $(function () {
     $(".header-top-right .header-top-right-list-li").hover(function(e){
         let _this=$(this);
         let _border=$("#border-h");
-        // _this.find(".men-list").addClass("active");
-        // _this.find(".men-list-img").addClass("active");
+        _this.find(".men-list").addClass("active");
+        _this.find(".men-list-img").addClass("active");
         let index=_this.index();
         if(index<1){
             _border.css("width","0.7rem").css("left","0.5rem");
@@ -28,16 +28,7 @@ $(function () {
         let _this=$(this);
         let _border=$("#border-h");
         _border.css("width","0rem").css("left","0.8rem");
-        // _this.find(".men-list").removeClass("active");
-        // _this.find(".men-list-img").removeClass("active");
-    })
-
-    $(".header-top-right .header-top-right-list-li1").mouseenter(function(e){
-        // let _this=$(this);
-        $(this).find(".men-list").addClass("active");
-    })
-    $(".header-top-right .header-top-right-list-li1").mouseout(function(e){
-        // let _this=$(this);
-        $(this).find(".men-list").removeClass("active");
+        _this.find(".men-list").removeClass("active");
+        _this.find(".men-list-img").removeClass("active");
     })
 });
