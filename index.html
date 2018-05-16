@@ -28,6 +28,77 @@
     <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .information-right-ul a{
+            color: #000000;
+        }
+        .information-right-ul a:hover{
+            text-decoration: none;
+            color: #3492d7 !important;
+        }
+        .footer-back {
+            position: relative;
+        }
+        .footer-back .VXfloat{
+            display: none;
+            position: absolute;
+            bottom: 296px;
+            left: 48.2%;
+            width: 178px;
+            height: 210px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 6px 13px 0px rgba(74,74,74,0.5);
+        }
+        .footer-back .VXfloat .erWeima{
+            margin: 23px 29px 8px;
+            width: 121px;
+            height: 121px;
+        }
+        .footer-back .footer .footer-icons img:hover {
+            opacity: 1;
+        }
+        .footer-back .VXfloat .trangle{
+            width: 0;
+            height: 0;
+            margin-left: 37%;
+            margin-top: 20px;
+            border-width: 19px;
+            border-style: solid;
+            border-color: #fff transparent transparent transparent;
+        }
+        .header-top .header-top-right-list-li a{
+            color: #fff!important;
+        }
+        .header-top .header-top-right-list-li a:hover{
+            text-decoration: none;
+        }
+        .header-top .header-top-mens-main .men-list-img {
+            opacity: 0;
+            position: absolute;
+            transition: all 0.5s ease;
+            top: 0;
+            z-index: -100;
+            left: 0px;
+            width: 32rem;
+            line-height: -26rem;
+            min-height: 9rem!important;
+            /* height: 2rem; */
+            max-height: 33rem!important;
+            background: rgba(15, 33, 56, 0.8445);
+            padding-left: 36%;
+            overflow: hidden;
+            padding-top: 1.7rem;
+        }
+        .header-top .header-top-mens-main .men-list-img>img{
+            width: 500px;
+            height: 350px;
+        }
+        .header-top .header-top-mens-main .men-list-img p{
+            margin: 17px 16%;
+            font-size: 29px;
+        }
+    </style>
 </head>
 <body>
     <!--头部滚动菜单-->
@@ -39,34 +110,34 @@
                 </div>
                 <ul class="header-top-right">
                     <li class="header-top-right-list-li">
-                        我们的技术
+                       首页
                     </li>
-                    <li class="header-top-right-list-li">
+                    <li class="header-top-right-list-li header-top-right-list-li1">
                         产品和服务
                         <!--头部的菜单列表-->
                         <div class="men-list">
                             <ul class="men-list-item">
-                                <li class="men-list-item-top">BIM + 3DGIS</li>
-                                <li>BIM咨询服务</li>
-                                <li>BIM施工建模服务</li>
-                                <li>BIM + 3DGIS平台<img class="new" src="images/new.png"></li>
+                                <a href="Journalism.html"> <li class="men-list-item-top"> BIM + 3DGIS</li></a>
+                                <li><a href="Journalism.html">BIM咨询服务</a></li>
+                                <li><a href="Journalism.html">BIM施工建模服务</a></li>
+                                <li><a href="Journalism.html">BIM + 3DGIS平台<img class="new" src="images/new.png"></a></li>
                             </ul>
                             <ul class="men-list-item">
-                                <li class="men-list-item-top">城市空间智能应用</li>
-                                <li>Space + 智能摄像系统</li>
-                                <li>Space + 数据展示大屏</li>
-                                <li>Space + 窄带物联网设备可视化管理平台</li>
-                                <li>Space + 智能停车系统<img class="new" src="images/new.png"></li>
+                                <li class="men-list-item-top"><a href="Journalism.html">城市空间智能应用</a></li>
+                                <li><a href="Journalism.html">Space + 智能摄像系统</a></li>
+                                <li><a href="Journalism.html">Space + 数据展示大屏</a></li>
+                                <li><a href="Journalism.html">Space + 窄带物联网设备可视化管理平台</a></li>
+                                <li><a href="Journalism.html">Space + 智能停车系统<img class="new" src="images/new.png"></a></li>
                             </ul>
                             <ul class="men-list-item">
-                                <li class="men-list-item-top">移动互联网</li>
-                                <li>Space + 虚实融合漫游系统</li>
-                                <li>Space + 客流数据分析服务</li>
-                                <li>Space + 智能引导系统<img class="new" src="images/new.png"></li>
+                                <li class="men-list-item-top"><a href="Journalism.html">移动互联网</a></li>
+                                <li><a href="Journalism.html">Space + 虚实融合漫游系统</a></li>
+                                <li><a href="Journalism.html">Space + 客流数据分析服务</a></li>
+                                <li><a href="Journalism.html">Space + 智能引导系统<img class="new" src="images/new.png"></a></li>
                             </ul>
                             <ul class="men-list-item">
                                 <li class="men-list-item-top">其他</li>
-                                <li>智能移动党建<img class="new" src="images/new.png"></li>
+                                <li><a href="Journalism.html">智能移动党建<img class="new" src="images/new.png"></a></li>
                             </ul>
                         </div>
                     </li>
@@ -75,12 +146,17 @@
                     </li>
                     <li class="header-top-right-list-li">
                         在线体验
+                        <!--头部的菜单列表-->
+                        <div class="men-list-img">
+                            <img src="images/youzu.png" alt="">
+                            <p>游族大厦</p>
+                        </div>
                     </li>
                     <li class="header-top-right-list-li">
-                        案例介绍
+                        <a href="case.html">案例介绍</a>
                     </li>
                     <li class="header-top-right-list-li">
-                        关于我们
+                        <a href="introduce.html">关于我们</a>
                     </li>
                     <li class="header-top-right-list-li">
                         加入我们
@@ -100,7 +176,7 @@
                         <div class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
                             <div class="header-top-image" ></div>
                             <div class="header-top-botton">
-                                查看方案1
+                                查看方案
                             </div>
                         </div>
 
@@ -109,7 +185,7 @@
                         <div class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
                             <div class="header-top-image" ></div>
                             <div class="header-top-botton">
-                                查看方案2
+                                查看方案
                             </div>
                         </div>
                     </div>
@@ -117,7 +193,7 @@
                         <div class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
                             <div class="header-top-image" ></div>
                             <div class="header-top-botton">
-                                查看方案3
+                                查看方案
                             </div>
                         </div>
                     </div>
@@ -238,7 +314,7 @@
                                 <div class="information-left-text">
                                     <div class="information-left-name">08 <span class="yue">月</span></div>
                                     <div class="information-left-menage text-overflow">
-                                        3年了！东链博数据科技有限公司正式上市
+                                        3年了！东链博数据科技有限公司成立三年了
                                     </div>
                                 </div>
                             </div>
@@ -254,14 +330,14 @@
                 </div>
                 <div class="information-right animated">
                     <ul class="information-right-ul">
-                        <li class="select-sapn text-overflow"><div class="span"></div>东链博数据新产品，智慧城市管理系统正式上<div class="time">10-23</div></li>
-                        <li><div class="span text-overflow"></div>东链博智慧党建APP上线首日下载领红<div class="time">10-23</div></li>
-                        <li><div class="span text-overflow"></div>东链博与朱家角签订智慧旅游方<div class="time">10-23</div></li>
-                        <li><div class="span text-overflow"></div>东链博与西岸传媒成功达成战略伙<div class="time">10-23</div></li>
-                        <li><div class="span text-overflow"></div>3年了！东链博数据科技有限公司正式上市<div class="time">10-23</div></li>
+                        <li class="select-sapn text-overflow"><div class="span"></div><a href="article.html">东链博数据新产品，智慧城市管理系统正式上</a><div class="time">10-23</div></li>
+                        <li><div class="span text-overflow"></div><a href="article.html">东链博智慧党建APP上线首日下载领红</a><div class="time">10-23</div></li>
+                        <li><div class="span text-overflow"></div><a href="article.html">东链博与朱家角签订智慧旅游方</a><div class="time">10-23</div></li>
+                        <li><div class="span text-overflow"></div><a href="article.html">东链博与西岸传媒成功达成战略伙</a><div class="time">10-23</div></li>
+                        <li><div class="span text-overflow"></div><a href="article.html">3年了！东链博数据科技有限公司正式成立三年了</a><div class="time">10-23</div></li>
                     </ul>
                     <div class="information-right-load">
-                        更多新闻>>
+                        <a href="Journalisms.html"> 更多新闻>></a>
                     </div>
                 </div>
             </div>
@@ -461,9 +537,9 @@
                 </li>
             </ul>
         </div>
-        <div class="loding-list">
+        <!-- <div class="loding-list">
             更多职位
-        </div>
+        </div> -->
     </div>
     <!--尾部-->
     <div class="footer-back">
@@ -511,6 +587,10 @@
             $(".footer-back .vx").on("mouseout",function(){
                 // $(".footer-back .VXfloat").css("display","none");
                 $(".footer-back .VXfloat").fadeOut(1000);
+            })
+            // 点击更多新闻页面跳转
+            $(".information-right-load").on("click",function(){
+
             })
         })
     </script>

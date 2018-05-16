@@ -527,7 +527,7 @@ body {
   overflow: hidden;
   white-space: nowrap;
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   height: 55px;
   margin-left: 69px;
   margin-right: 1.15rem;
@@ -544,7 +544,7 @@ body {
 .header-top .header-top-mens-main .header-top-mens .header-top-right {
   float: right;
   padding-left:150px!important;
-  padding-top:26px;
+  /* padding-top:26px; */
   /*margin-left:456px!important;*/
  /*margin-left:400px!important;*/
 }
@@ -567,20 +567,6 @@ body {
   left: 0.8rem;
   transition: all 0.5s ease;
   width: 0px;
-}
-.header-top .header-top-mens-main .men-list {
-  opacity: 0;
-  position: absolute;
-  transition: all 0.5s ease;
-  top: 0px;
-  z-index: -1;
-  left: 0px;
-  width: 26.72rem;
-  height: 0rem;
-  background: rgba(15, 33, 56, 0.8445);
-  padding-left: 5.5%;
-  overflow: hidden;
-  padding-top: 1.7rem;
 }
 .header-top .header-top-mens-main .men-list .men-list-item {
   position: relative;
