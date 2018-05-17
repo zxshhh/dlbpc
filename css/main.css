@@ -512,11 +512,11 @@ body {
   font-size:16px!important;
 
 }
-.header-top {
+/* .header-top {
   width: 100%;
   height: 11.65rem;
   background-color: #101c43;
-}
+} */
 .header-top .header-top-mens-main {
   position: absolute;
   z-index: 9;

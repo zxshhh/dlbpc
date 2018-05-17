@@ -1,3 +1,5 @@
+// import { version } from "punycode";
+
 /**
  * Created by admin on 2018/3/18.
  */
@@ -23,6 +25,9 @@ var dlbServer={
             }
         })
         var mySwiper2 = new Swiper('.case-swiper-class',{
+            // scrollbar: {
+            //     el: '.swiper-scrollbar',
+            // },
             pagination : '.swiper-pagination',
             prevButton:'.swiper-button-prev',
             nextButton:'.swiper-button-next',
@@ -45,5 +50,58 @@ $(function () {
         $(".information-menages .information-left").addClass("fadeInLeft"); // 开始淡入
         $(".information-menages .information-right").addClass("fadeInRight"); // 开始淡入
     },1000)
+
+    // 顶部显示隐藏
+    var height = $(window).height();
+    var scrollTop = $(window).scrollTop();
+
+    // if(scrollTop > 700){
+    //     alert("0");
+    // }
+
+    // 导航栏显示
+    $(window).scroll(function(){
+        var scrollTop = $(window).scrollTop();
+        if(scrollTop>700){
+            $(".header-top-mens").css({
+                "position":"fixed",
+                "background":"#fff",
+                "width":"100%",
+                "height":"55px",
+                "margin-left":"0",
+                "box-shadow":"0px 2px 6px 0px rgba(0,0,0,0.1)"
+            });
+            $(".header-top-left").css("margin-left","55px");
+            $(".header-top-left img").attr("src","images/logo.png");
+            $(".header-top-right").css({
+                "margin-right": "50px",
+                "margin-top": "-3px",
+            });
+            $(".header-top-right li").css({
+                "color":"#000"
+            })
+            $(".header-top-right li a").css({
+                "color":"#000"
+            })
+        }else{
+            $(".header-top-mens").css({
+                "position":"absolute",
+                "background":"transparent",
+                "width":"100%",
+                "height":"55px",
+            });
+            $(".header-top-left img").attr("src","images/bai-logo.png");
+            $(".header-top-right").css({
+                "margin-right": "50px",
+                "margin-top": "-3px",
+            });
+            $(".header-top-right li").css({
+                "color":"#fff"
+            })
+            $(".header-top-right li a").css({
+                "color":"#fff"
+            })
+        }
+    })
 
 });

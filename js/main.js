@@ -31,6 +31,7 @@ $(function () {
         // _this.find(".men-list").removeClass("active");
         // _this.find(".men-list-img").removeClass("active");
     })
+    // 
     $(".header-li1").mouseenter(function(e){
         e.stopPropagation();
         $(".men-list").fadeIn();
@@ -61,4 +62,5 @@ $(function () {
     $(".header-top-images").click(function(e){
         $(".men-list").fadeOut();
     })
+
 });
