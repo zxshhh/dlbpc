@@ -69,12 +69,15 @@
     float: left;
     list-style: none;
     font-size: 0.27rem;
-    font-family: "Microsoft Himalaya";
-    color: #ffffff;
+    font-family:PingFang-SC-Medium;
+    color: #D4D7DB;
     margin-left: 0.55rem;
     line-height: 62px;
 }
-
+.header-top .header-top-mens-main .header-top-mens .header-top-right .header-top-right-list-li:hover{
+    color: #fff;
+    font-family:PingFangSC-Semibold;
+}
 .header-top .header-top-mens-main .header-top-mens .header-top-right .border-h {
     height: 1.8px;
     background: rgba(255, 255, 255, 0.7329);
@@ -137,9 +140,9 @@
     height: 0.27rem;
     vertical-align: inherit;
 }
-
 .header-top .header-top-mens-main .men-list .men-list-item li:hover {
     opacity: 1;
+    font-family:PingFangSC-Semibold;
 }
 
 .header-top .header-top-mens-main .active {
