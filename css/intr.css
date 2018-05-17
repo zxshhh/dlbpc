@@ -167,9 +167,5 @@
 .body-main-active{
   width:1015px;
   font-size: 24px;
-  margin:0 auto;
-  margin-top:174px!important;
-}
-.header-top-right-list-li{
-  font-size:13px!important;
+  margin:40px auto;
 }

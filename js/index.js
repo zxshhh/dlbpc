@@ -28,9 +28,11 @@ var dlbServer={
             // scrollbar: {
             //     el: '.swiper-scrollbar',
             // },
+            slidesPerGroup: 1,
             pagination : '.swiper-pagination',
-            prevButton:'.swiper-button-prev',
-            nextButton:'.swiper-button-next',
+            // prevButton:'.swiper-button-prev',
+            // nextButton:'.swiper-button-next'
+            
         })
     }
 }
