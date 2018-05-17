@@ -568,14 +568,14 @@ body {
   transition: all 0.5s ease;
   width: 0px;
 }
-.header-top .header-top-mens-main .men-list .men-list-item {
+/* .header-top .header-top-mens-main .men-list .men-list-item {
   position: relative;
   cursor: pointer;
   width: 25%;
   float: left;
   text-align: left;
   margin-left: 0px;
-}
+} */
 .header-top .header-top-mens-main .men-list .men-list-item .men-list-item-top {
   font-weight: bold;
   font-size: 0.38rem;

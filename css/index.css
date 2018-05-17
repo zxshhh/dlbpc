@@ -1,7 +1,8 @@
 @charset "UTF-8";
 .header-top-image {
   width: 100%;
-  height: 11.65rem;
+  /* height: 11.65rem; */
+  height: 640px;
   background-image: url("../images/banner.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -72,7 +73,7 @@
   transition: all 0.5s ease;
   width: 0px;
 }
-.header-top .header-top-mens-main .men-list {
+/* .header-top .header-top-mens-main .men-list {
   opacity: 0;
   position: absolute;
   transition: all 0.5s ease;
@@ -85,15 +86,15 @@
   padding-left: 5.5%;
   overflow: hidden;
   padding-top: 1.7rem;
-}
-.header-top .header-top-mens-main .men-list .men-list-item {
+} */
+/* .header-top .header-top-mens-main .men-list .men-list-item {
   position: relative;
   cursor: pointer;
   width: 25%;
   float: left;
   text-align: left;
   margin-left: 0px;
-}
+} */
 .header-top .header-top-mens-main .men-list .men-list-item .men-list-item-top {
   font-weight: bold;
   font-size: 0.38rem;
@@ -282,7 +283,7 @@
 .information-back .information .information-menages .information-right .information-right-ul li {
   text-align: left;
   list-style: none;
-  padding-bottom: 0.67rem;
+  padding-bottom: 0.48rem;
   cursor: pointer;
   display: -ms-flexbox;
   display: flex;
