@@ -276,9 +276,10 @@
   opacity: 0;
 }
 .information-back .information .information-menages .information-right .information-right-ul {
-  font-size: 0.4rem;
-  color: #3e3e3e;
-  line-height: 0.55rem;
+  font-size:24px;
+  font-family:PingFang-SC-Medium;
+  color:#3E3E3E;
+  line-height:33px;
 }
 .information-back .information .information-menages .information-right .information-right-ul li {
   text-align: left;
