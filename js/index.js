@@ -51,15 +51,7 @@ $(function () {
         $(".information-menages .information-right").addClass("fadeInRight"); // 开始淡入
     },1000)
 
-    // 顶部显示隐藏
-    var height = $(window).height();
-    var scrollTop = $(window).scrollTop();
-
-    // if(scrollTop > 700){
-    //     alert("0");
-    // }
-
-    // 导航栏显示
+    // 顶部导航栏显示隐藏
     $(window).scroll(function(){
         var scrollTop = $(window).scrollTop();
         if(scrollTop>700){
@@ -83,6 +75,27 @@ $(function () {
             $(".header-top-right li a").css({
                 "color":"#000"
             })
+            $(".header-top-right li").mouseenter(function(){
+                $(this).css({
+                    "color":"#ccc"
+                })
+            })
+            
+            $(".header-top-right li").mouseout(function(){
+                $(this).css({
+                    "color":"#000"
+                })
+            })
+            $(".header-top-right li a").mouseenter(function(){
+                $(this).css({
+                    "color":"#ccc"
+                })
+            })
+            $(".header-top-right li a").mouseout(function(){
+                $(this).css({
+                    "color":"#000"
+                })
+            })
         }else{
             $(".header-top-mens").css({
                 "position":"absolute",
@@ -96,10 +109,31 @@ $(function () {
                 "margin-top": "-3px",
             });
             $(".header-top-right li").css({
-                "color":"#fff"
+                "color":"#D4D7DB"
             })
             $(".header-top-right li a").css({
-                "color":"#fff"
+                "color":"#D4D7DB"
+            })
+            $(".header-top-right li").mouseenter(function(){
+                $(this).css({
+                    "color":"#fff"
+                })
+            })
+            
+            $(".header-top-right li").mouseout(function(){
+                $(this).css({
+                    "color":"#D4D7DB"
+                })
+            })
+            $(".header-top-right li a").mouseenter(function(){
+                $(this).css({
+                    "color":"#fff"
+                })
+            })
+            $(".header-top-right li a").mouseout(function(){
+                $(this).css({
+                    "color":"#D4D7DB"
+                })
             })
         }
     })

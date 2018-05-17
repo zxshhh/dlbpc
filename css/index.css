@@ -72,6 +72,7 @@
     font-family:PingFang-SC-Medium;
     color: #D4D7DB;
     margin-left: 0.55rem;
+    margin-top: -4px;
     line-height: 62px;
 }
 .header-top .header-top-mens-main .header-top-mens .header-top-right .header-top-right-list-li:hover{
