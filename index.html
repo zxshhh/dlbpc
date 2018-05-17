@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
@@ -11,17 +12,18 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
     <script>
-        !function(n){
-            var  e=n.document,
-                t=e.documentElement,
-                i=1600,
-                d=i/60,
-                o="orientationchange"in n?"orientationchange":"resize",
-                a=function(){
-                    var n=t.clientWidth||320;n>1600&&(n=1600);
-                    t.style.fontSize=n/d+"px"
+        ! function(n) {
+            var e = n.document,
+                t = e.documentElement,
+                i = 1600,
+                d = i / 60,
+                o = "orientationchange" in n ? "orientationchange" : "resize",
+                a = function() {
+                    var n = t.clientWidth || 320;
+                    n > 1600 && (n = 1600);
+                    t.style.fontSize = n / d + "px"
                 };
-            e.addEventListener&&(n.addEventListener(o,a,!1),e.addEventListener("DOMContentLoaded",a,!1))
+            e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener("DOMContentLoaded", a, !1))
         }(window);
     </script>
     <!-- FOR IE9 below -->
@@ -29,17 +31,20 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
     <style>
-        .information-right-ul a{
+        .information-right-ul a {
             color: #000000;
         }
-        .information-right-ul a:hover{
+        
+        .information-right-ul a:hover {
             text-decoration: none;
             color: #3492d7 !important;
         }
+        
         .footer-back {
             position: relative;
         }
-        .footer-back .VXfloat{
+        
+        .footer-back .VXfloat {
             display: none;
             position: absolute;
             bottom: 296px;
@@ -48,17 +53,20 @@
             height: 210px;
             background-color: #fff;
             border-radius: 10px;
-            box-shadow: 0px 6px 13px 0px rgba(74,74,74,0.5);
+            box-shadow: 0px 6px 13px 0px rgba(74, 74, 74, 0.5);
         }
-        .footer-back .VXfloat .erWeima{
+        
+        .footer-back .VXfloat .erWeima {
             margin: 23px 29px 8px;
             width: 121px;
             height: 121px;
         }
+        
         .footer-back .footer .footer-icons img:hover {
             opacity: 1;
         }
-        .footer-back .VXfloat .trangle{
+        
+        .footer-back .VXfloat .trangle {
             width: 0;
             height: 0;
             margin-left: 37%;
@@ -67,12 +75,15 @@
             border-style: solid;
             border-color: #fff transparent transparent transparent;
         }
-        .header-top .header-top-right-list-li a{
+        
+        .header-top .header-top-right-list-li a {
             color: #fff!important;
         }
-        .header-top .header-top-right-list-li a:hover{
+        
+        .header-top .header-top-right-list-li a:hover {
             text-decoration: none;
         }
+        
         .header-top .header-top-mens-main .men-list-img {
             opacity: 0;
             position: absolute;
@@ -90,12 +101,14 @@
             overflow: hidden;
             padding-top: 1.2rem;
         }
-        .header-top .header-top-mens-main .men-list-img>img{
+        
+        .header-top .header-top-mens-main .men-list-img>img {
             width: 500px;
             height: 350px;
         }
         /* 头部样式修改 */
-        .header-top .men-list{
+        
+        .header-top .men-list {
             display: none;
             position: absolute;
             top: 60px;
@@ -106,32 +119,39 @@
             background: rgba(15, 33, 56, 0.8445);
             opacity: 0.8;
         }
-        .header-top .header-top-mens-main .men-list-img p{
+        
+        .header-top .header-top-mens-main .men-list-img p {
             margin: 10px 16%;
             font-size: 29px;
         }
-        .header-top .men-list .men-list-item{
+        
+        .header-top .men-list .men-list-item {
             float: left;
-            margin-left: 8%;
+            margin-left: 5%;
             margin-top: 37px;
             font-size: 18px;
         }
-        .header-top .men-list .men-list-item li{
+        
+        .header-top .men-list .men-list-item li {
             margin-bottom: 24px;
         }
-        .header-top .men-list .men-list-item .men-list-item-top{
+        
+        .header-top .men-list .men-list-item .men-list-item-top {
             font-size: 23px;
             margin-bottom: 48px;
         }
-        .header-top .men-list .men-list-item a{
+        
+        .header-top .men-list .men-list-item a {
             color: #fff;
         }
-        .header-top .men-list .men-list-item a:hover{
-           text-decoration: none;
-           color: #337ab7;
+        
+        .header-top .men-list .men-list-item a:hover {
+            text-decoration: none;
+            color: #337ab7;
         }
-       /* 头部的菜单列表   在线体验 */
-       .header-top .men-list-img{
+        /* 头部的菜单列表   在线体验 */
+        
+        .header-top .men-list-img {
             display: none;
             position: absolute;
             top: 55px;
@@ -142,18 +162,22 @@
             background: rgba(15, 33, 56, 0.8445);
             opacity: 0.8;
         }
-        .header-top .men-list-img .men-list-pic{
+        
+        .header-top .men-list-img .men-list-pic {
             margin: 20px 33%;
         }
-        .header-top .men-list-img img{
+        
+        .header-top .men-list-img img {
             width: 480px;
         }
-        .header-top .men-list-img p{
+        
+        .header-top .men-list-img p {
             font-size: 29px;
             margin: 20px 28%;
         }
     </style>
 </head>
+
 <body>
     <!--头部滚动菜单-->
     <div class="header-top" style="position: relative;">
@@ -164,10 +188,10 @@
                 </div>
                 <ul class="header-top-right">
                     <li class="header-top-right-list-li header-dif header-tdif">
-                       首页
+                        首页
                     </li>
                     <li class="header-top-right-list-li header-li1 header-tdif">
-                        产品和服务 
+                        产品和服务
                     </li>
                     <li class="header-top-right-list-li header-dif header-tdif">
                         解决方案
@@ -197,7 +221,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
-                            <div class="header-top-image" ></div>
+                            <div class="header-top-image"></div>
                             <div class="header-top-botton">
                                 查看方案
                             </div>
@@ -206,15 +230,15 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
-                            <div class="header-top-image" ></div>
+                            <div class="header-top-image"></div>
                             <div class="header-top-botton">
                                 查看方案
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide" >
+                    <div class="swiper-slide">
                         <div class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
-                            <div class="header-top-image" ></div>
+                            <div class="header-top-image"></div>
                             <div class="header-top-botton">
                                 查看方案
                             </div>
@@ -233,7 +257,7 @@
             </div>
 
         </div>
-        
+
         <!--头部的菜单列表    产品和服务-->
         <div class="men-list">
             <ul class="men-list-item">
@@ -270,7 +294,7 @@
     </div>
     <!--关于我们-->
     <div class="width header-user-menage">
-        <div class="header-user-titles opacity_0 animated fadeInUp" >
+        <div class="header-user-titles opacity_0 animated fadeInUp">
             <div class="public-title">
                 关于我们
             </div>
@@ -283,15 +307,10 @@
         <div class="header-user-menages">
             <div class="header-user-menages-left animated">
                 <div class="row" style="padding:0 auto 2rem">
-                    &emsp;&emsp; 上海东链博数据科技有限公司于2016年4月21日
-                    在自贸区市场监督管理局登记成立。法定代表人林
-                    奇，公司经营范围包括从事数据科技、网络科技、电
-                    子科技、云计算科技等
+                    &emsp;&emsp; 上海东链博数据科技有限公司于2016年4月21日 在自贸区市场监督管理局登记成立。法定代表人林 奇，公司经营范围包括从事数据科技、网络科技、电 子科技、云计算科技等
                 </div>
                 <div class="row" style="margin-top: .18rem;">
-                    &emsp;&emsp;游族网络股份有限公司（SZ.002174）成立于
-                    2009年，创始人林奇，是中国领先的互动娱乐供应
-                    商。2014年6月，游族网络正式登陆A股主板。
+                    &emsp;&emsp;游族网络股份有限公司（SZ.002174）成立于 2009年，创始人林奇，是中国领先的互动娱乐供应 商。2014年6月，游族网络正式登陆A股主板。
                 </div>
                 <div class="row header-user-menages-left-load">
                     查看更多>>
@@ -387,11 +406,26 @@
                 </div>
                 <div class="information-right animated">
                     <ul class="information-right-ul">
-                        <li class="select-sapn text-overflow"><div class="span"></div><a href="article.html">东链博数据新产品，智慧城市管理系统正式上</a><div class="time">10-23</div></li>
-                        <li><div class="span text-overflow"></div><a href="article.html">东链博智慧党建APP上线首日下载领红</a><div class="time">10-23</div></li>
-                        <li><div class="span text-overflow"></div><a href="article.html">东链博与朱家角签订智慧旅游方</a><div class="time">10-23</div></li>
-                        <li><div class="span text-overflow"></div><a href="article.html">东链博与西岸传媒成功达成战略伙</a><div class="time">10-23</div></li>
-                        <li><div class="span text-overflow"></div><a href="article.html">3年了！东链博数据科技有限公司正式成立三年了</a><div class="time">10-23</div></li>
+                        <li class="select-sapn text-overflow">
+                            <div class="span"></div><a href="article.html">东链博数据新产品，智慧城市管理系统正式上</a>
+                            <div class="time">10-23</div>
+                        </li>
+                        <li>
+                            <div class="span text-overflow"></div><a href="article.html">东链博智慧党建APP上线首日下载领红</a>
+                            <div class="time">10-23</div>
+                        </li>
+                        <li>
+                            <div class="span text-overflow"></div><a href="article.html">东链博与朱家角签订智慧旅游方</a>
+                            <div class="time">10-23</div>
+                        </li>
+                        <li>
+                            <div class="span text-overflow"></div><a href="article.html">东链博与西岸传媒成功达成战略伙</a>
+                            <div class="time">10-23</div>
+                        </li>
+                        <li>
+                            <div class="span text-overflow"></div><a href="article.html">3年了！东链博数据科技有限公司正式成立三年了</a>
+                            <div class="time">10-23</div>
+                        </li>
                     </ul>
                     <div class="information-right-load">
                         <a href="Journalisms.html"> 更多新闻>></a>
@@ -642,18 +676,19 @@
     <script src="js/index.js"></script>
     <script src="js/main.js"></script>
     <script>
-        $(function(){
-            $(".footer-back .vx").on("mouseenter",function(){
+        $(function() {
+            $(".footer-back .vx").on("mouseenter", function() {
                 $(".footer-back .VXfloat").fadeIn(1000);
             })
-            $(".footer-back .vx").on("mouseout",function(){
-                $(".footer-back .VXfloat").fadeOut(1000);
-            })
-            // 点击更多新闻页面跳转
-            $(".information-right-load").on("click",function(){
+            $(".footer-back .vx").on("mouseout", function() {
+                    $(".footer-back .VXfloat").fadeOut(1000);
+                })
+                // 点击更多新闻页面跳转
+            $(".information-right-load").on("click", function() {
 
             })
         })
     </script>
 </body>
+
 </html>
