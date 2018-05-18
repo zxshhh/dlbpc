@@ -101,6 +101,7 @@
   }
   .body-main .flex .text {
     margin-left: 30px;
+    margin-top: -3px;
     line-height: 30px;
     color: #696969;
     overflow: hidden;
