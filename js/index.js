@@ -102,7 +102,7 @@ $(function () {
             $(".header-top-mens").css({
                 "position":"absolute",
                 "background":"transparent",
-                "width":"100%",
+                // "width":"100%",
                 "height":"55px",
             });
             $(".header-top-left img").attr("src","images/bai-logo.png");
