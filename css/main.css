@@ -624,7 +624,7 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
-  height: 11.65rem;
+  /* height: 11.65rem; */
   width: 100%;
 }
 .header-top .header-top-images .header-top-botton {
