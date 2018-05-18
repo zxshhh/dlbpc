@@ -96,7 +96,7 @@
     position: absolute;
     background: #4990e2;
     left: 50%;
-    margin-left: 0px;
+    margin-left: -1px;
     margin-top: 1px;
   }
   .body-main .flex .text {
