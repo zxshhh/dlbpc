@@ -42,7 +42,7 @@
   }
   .body-main .ul {
     margin-left: -5px;
-    margin-top: -44px;
+    /* margin-top: -44px; */
   }
   .body-main .ul .flex:last-child .solid div {
     height: 0px;
@@ -62,6 +62,7 @@
     display: flex;
     -ms-flex-align: center;
         align-items: center;
+        height: 60px;
   }
   .body-main .circle {
     width: 11px;
@@ -79,7 +80,7 @@
   .body-main .month {
     font-size: 12px;
     color: #bebebe;
-    width: 33px;
+    /* width: 33px; */
   }
   .body-main .solid {
     position: relative;
@@ -88,16 +89,16 @@
     height: 7px;
     background: #4990E2;
     margin: 1px;
-    border-radius: 8px;
+    border-radius: 14px;
     z-index: -1;
   }
   .body-main .solid div {
     width: 1px;
-    height: 33px;
+    height: 45px;
     position: absolute;
     background: #4990e2;
     left: 50%;
-    margin-left: -1px;
+    margin-left: 0px;
     margin-top: 1px;
   }
   .body-main .flex .text {
@@ -146,7 +147,7 @@
   
   /* ---------------------------------------------------------------- */
    .titles{
-     height:144px;
+     height:114px;
      width:100%;
      text-align: center;
    }
