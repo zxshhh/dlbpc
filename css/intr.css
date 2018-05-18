@@ -89,6 +89,7 @@
     background: #4990E2;
     margin: 1px;
     border-radius: 8px;
+    z-index: -1;
   }
   .body-main .solid div {
     width: 1px;
