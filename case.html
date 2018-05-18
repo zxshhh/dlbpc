@@ -61,6 +61,77 @@
             color: #000!important;
             font-family: "微软雅黑";
         }
+
+                /* 头部样式修改 */
+        
+        .header-top .men-list {
+            display: none;
+            position: absolute;
+            top: 60px;
+            z-index: 1000;
+            width: 100%;
+            height: 400px;
+            color: #fff;
+            background: #fff;
+            box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.1);
+            opacity: 1;
+        }
+        
+        .header-top .header-top-mens-main .men-list-img p {
+            margin: 10px 16%;
+            font-size: 29px;
+        }
+        
+        .header-top .men-list .men-list-item {
+            float: left;
+            margin-left: 5%;
+            margin-top: 37px;
+            font-size: 18px;
+        }
+        
+        .header-top .men-list .men-list-item li {
+            margin-bottom: 24px;
+        }
+        
+        .header-top .men-list .men-list-item .men-list-item-top {
+            font-size: 23px;
+            margin-bottom: 48px;
+        }
+        
+        .header-top .men-list .men-list-item a {
+            color: #000;
+        }
+        
+        .header-top .men-list .men-list-item a:hover {
+            text-decoration: none;
+            color: #337ab7;
+        }
+        /* 头部的菜单列表   在线体验 */
+        .header-top .men-list-img {
+            display: none;
+            position: absolute;
+            top: 55px;
+            z-index: 1000;
+            width: 100%;
+            height: 440px;
+            color: #000;
+            background: #fff;
+            box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.1);
+            opacity: 1;
+        }
+        
+        .header-top .men-list-img .men-list-pic {
+            margin: 20px 33%;
+        }
+        
+        .header-top .men-list-img img {
+            width: 480px;
+        }
+        
+        .header-top .men-list-img p {
+            font-size: 29px;
+            margin: 20px 28%;
+        }
     </style>
 </head>
 <body>
@@ -72,25 +143,28 @@
                 <img src="images/logo.png" class="header-top-left-icon">
             </div>
             <ul class="header-top-right">
-                <li class="header-top-right-list-li">
+                <!-- <li class="header-top-right-list-li">
+                    <a href="index.html">首页</a>  
+                </li> -->
+                <li class="header-top-right-list-li header-dif header-tdif">
                     <a href="index.html">首页</a>  
                 </li>
-                <li class="header-top-right-list-li">
+                <li class="header-top-right-list-li header-li1 header-tdif">
                     产品和服务
                 </li>
-                <li class="header-top-right-list-li">
+                <li class="header-top-right-list-li header-dif header-tdif">
                     解决方案
                 </li>
-                <li class="header-top-right-list-li">
+                <li class="header-top-right-list-li header-dif header-ty">
                     在线体验
                 </li>
-                <li class="header-top-right-list-li">
-                    案例介绍
+                <li class="header-top-right-list-li header-dif header-tdif">
+                    <a href="case.html">案例介绍</a>
                 </li>
-                <li class="header-top-right-list-li">
-                    关于我们
+                <li class="header-top-right-list-li header-dif header-tdif">
+                    <a href="introduce.html">关于我们</a>
                 </li>
-                <li class="header-top-right-list-li">
+                <li class="header-top-right-list-li header-dif header-tdif">
                     加入我们
                 </li>
                 <!-- <li class="header-top-right-list-li">
@@ -99,6 +173,39 @@
                 </li> -->
                 <!-- <div class="border-h" id="border-h"></div> -->
             </ul>
+        </div>
+    </div>
+    <!--头部的菜单列表    产品和服务-->
+    <div class="men-list">
+        <ul class="men-list-item">
+            <li class="men-list-item-top"><a href="Journalism.html"> BIM + 3DGIS</a></li>
+            <li><a href="Journalism.html">BIM咨询服务</a></li>
+            <li><a href="Journalism.html">BIM施工建模服务</a></li>
+            <li><a href="Journalism.html">BIM + 3DGIS平台<img class="new" src="images/new.png"></a></li>
+        </ul>
+        <ul class="men-list-item">
+            <li class="men-list-item-top"><a href="Journalism.html">城市空间智能应用</a></li>
+            <li><a href="Journalism.html">Space + 智能摄像系统</a></li>
+            <li><a href="Journalism.html">Space + 数据展示大屏</a></li>
+            <li><a href="Journalism.html">Space + 窄带物联网设备可视化管理平台</a></li>
+            <li><a href="Journalism.html">Space + 智能停车系统<img class="new" src="images/new.png"></a></li>
+        </ul>
+        <ul class="men-list-item">
+            <li class="men-list-item-top"><a href="Journalism.html">移动互联网</a></li>
+            <li><a href="Journalism.html">Space + 虚实融合漫游系统</a></li>
+            <li><a href="Journalism.html">Space + 客流数据分析服务</a></li>
+            <li><a href="Journalism.html">Space + 智能引导系统<img class="new" src="images/new.png"></a></li>
+        </ul>
+        <ul class="men-list-item">
+            <li class="men-list-item-top">其他</li>
+            <li><a href="Journalism.html">智能移动党建<img class="new" src="images/new.png"></a></li>
+        </ul>
+    </div>
+    <!--头部的菜单列表   在线体验-->
+    <div class="men-list-img">
+        <div class="men-list-pic">
+            <img src="images/youzu.png" alt="">
+            <p>游族大厦</p>
         </div>
     </div>
 </div>
