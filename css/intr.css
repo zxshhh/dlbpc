@@ -119,7 +119,7 @@
   }
   .body-main-time {
     margin-left: 4.07rem !important;
-    margin-top: 1.3rem !important;
+    /* margin-top: 1.3rem !important; */
   }
   @media screen and (max-width: 812px) {
     .body-main-time {
